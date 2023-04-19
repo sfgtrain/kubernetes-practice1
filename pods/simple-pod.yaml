@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
- name: sfgtrain
+ name: utrains
  labels:
-  app: sfgtrain
+  app: utrains
 spec:
  containers:
-   - name: sfgtrain-app
+   - name: utrains-app
      image: httpd
